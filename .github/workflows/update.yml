@@ -48,7 +48,7 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
         token: ${{ secrets.RElEASE_TOKEN }} # Custom token needed to recursively trigger workflows
-        author: fw867 <mail.ffkykzs@gmail.com>
+        author: fw867 <mail.ffkykzs@gmail.com> hikaru <i@rua.moe>
         commit-message: |
           Add Linux ${{ steps.update.outputs.version }}
 
